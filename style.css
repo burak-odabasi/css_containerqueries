@@ -80,6 +80,11 @@ img {
   margin-left: 0.25rem;
 }
 
+.sidebar {
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
 @media (max-width: 870px) {
   .card {
     grid-template-rows: 1fr 1fr;
